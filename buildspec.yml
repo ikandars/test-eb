@@ -4,3 +4,7 @@ phases:
   install:
     commands:
       - npm install --production
+
+artifacts:
+  files:
+    - '**/*'
